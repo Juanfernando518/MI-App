@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parte 1</title>
+    <title>Página Web Minimalista (Sin Menú Lateral)</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <h1>Bienvenido a la Parte 1</h1>
-    <p>Esta es la primera parte de nuestro proyecto.</p>
+
+    <header>
+        <h1>Mi Primera Página Web</h1>
+        <p class="subtitle">Desarrollo de Programación y Plataformas Web</p>
+    </header>
+
+    <main>
+        <section id="tablas">
+            <h2>1. Estructura de Tablas</h2>
+            <button class="accordion">Mostrar/Ocultar Tabla y Ejemplo</button>
+            <div class="panel">
+                <table>
+                    <tr>
+                        <th>Etiqueta</th>
+                        <th>Función Principal</th>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;header&gt;</code></td>
+                        <td>Contenido introductorio.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;footer&gt;</code></td>
+                        <td>Información de contacto o autoría.</td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;section&gt;</code></td>
+                        <td>   Agrupa contenido principal.</td>
+                </table>
+                
+                <h3>Ejemplo de &lt;img&gt;</h3>
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+                    alt="Logo de HTML5" 
+                    class="responsive-img" 
+                />
+                <p>El logo anterior es un ejemplo de cómo se inserta una imagen con la etiqueta <code>&lt;img&gt;</code>.</p>
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="Scripts.js"></script>
+    <footer>
+        <p>&copy; Desarrollado por David Villa - Programación y Plataformas Web</p>
+    </footer>
 </body>
 </html>

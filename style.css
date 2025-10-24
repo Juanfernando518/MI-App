@@ -1,0 +1,139 @@
+/* Paleta de Colores: Gris Oscuro (#2c3e50) y Azul de acento (#3498db) */
+:root {
+    --color-primary: #2c3e50;
+    --color-secondary: #3498db;
+    --color-background: #f4f6f9;
+    --color-light: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    line-height: 1.5;
+}
+
+/* HEADER Y TÍTULOS */
+header {
+    background: var(--color-primary);
+    color: var(--color-light);
+    padding: 0.5em;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 3px;
+    font-size: 1.5em;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+/* LAYOUT PRINCIPAL */
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* SECCIONES */
+section {
+    background: var(--color-light);
+    margin-bottom: 2    0px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    color: var(--color-secondary);
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 9px;
+    margin-top: 0;
+    font-size: 1em;
+}
+
+/* ACORDEÓN (Botón y Panel) */
+.accordion {
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1em;
+    background: #ecf0f1;
+    color: var(--color-primary);
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+
+.accordion:hover {
+    background: #e0e0e0;
+}
+
+.panel {
+    display: none;
+    padding: 13px;
+    background: var(--color-light);
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: var(--color-secondary);
+    color: white;
+}
+
+/* IMAGEN (RESPONSIVE) */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+}
+
+/* FORMULARIO */
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+form button[type="submit"] {
+    background: var(--color-secondary);
+    color: var(--color-light);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+form button[type="submit"]:hover {
+    background: #2980b9;
+}
+
+/* FOOTER */
+footer {
+    background: var(--color-primary);
+    color: var(--color-light);
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    margin-top: 25px;
+}
