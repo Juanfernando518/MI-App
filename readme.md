@@ -4,8 +4,7 @@
 **Unidad:** 1.2 – Estándares Web  
 **Estudiante:** David Villa 
 **Repositorio:** [https://github.com/Davidvillahdz/icc-ppw-u1-mi_pagina_web.git]  
-**Página desplegada (GitHub Pages):** [https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/](https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/)  
-
+**Página desplegada (GitHub Pages):** [https://davidvillahdz.github.io/icc-ppw-u1-mi_pagina_web/]
 ---
 
 ## 🧱 Estructura HTML utilizada
@@ -40,4 +39,28 @@
     class="responsive-img" 
 />
 <p>El logo anterior es un ejemplo de cómo se inserta una imagen...</p>
-![Vista previa de la página](captura-pagina.png)
+---
+
+---
+
+## 📸 Capturas de pantalla del proyecto final
+
+A continuación se muestran las capturas de pantalla del proyecto final funcionando en el navegador, correspondientes a **ambas versiones**:
+
+- 🌐 **Versión sin CSS/JS:** muestra la estructura base en HTML.  
+- 🎨 **Versión con CSS y JavaScript:** muestra la página con estilos y comportamiento dinámico.
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Versión sin CSS/JS</strong><br>
+        <img src="Captura-pagina1.0.png" alt="Versión sin estilos" width="400">
+      </td>
+      <td align="center">
+        <strong>Versión con CSS/JS</strong><br>
+        <img src="Captura-pagina.png" alt="Versión con estilos" width="400">
+      </td>
+    </tr>
+  </table>
+</p>
