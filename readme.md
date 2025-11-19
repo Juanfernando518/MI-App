@@ -2,9 +2,9 @@
 
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
-**Estudiante:** David Villa 
-**Repositorio:** [https://github.com/Davidvillahdz/icc-ppw-u1-mi_pagina_web.git]  
-**Página desplegada (GitHub Pages):** [https://davidvillahdz.github.io/icc-ppw-u1-mi_pagina_web/]
+**Estudiante:** Juan Alvarez  
+**Repositorio:** [https://github.com/Juanfernando518/MI-App.git]  
+**Página desplegada (GitHub Pages):** [ https://juanfernando518.github.io/MI-App/]
 ---
 
 ## 🧱 Estructura HTML utilizada
@@ -52,11 +52,11 @@ A continuación se muestran las capturas de pantalla del proyecto final funciona
     <tr>
       <td align="center">
         <strong>Versión sin CSS/JS</strong><br>
-        <img src="Captura-pagina1.0.png" alt="Versión sin estilos" width="400">
+        <img src="Captura-pagina1.0.png" alt="Versión sin estilos" width="200">
       </td>
       <td align="center">
         <strong>Versión con CSS/JS</strong><br>
-        <img src="Captura-pagina.png" alt="Versión con estilos" width="400">
+        <img src="Captura-pagina.png" alt="Versión con estilos" width="200">
       </td>
     </tr>
   </table>
