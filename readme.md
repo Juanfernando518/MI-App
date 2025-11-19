@@ -31,7 +31,7 @@
 
 ### 💻 Ejemplo de `<img>`
 
-```html
+html
 <h3>Ejemplo de &lt;img&gt;</h3>
 <img 
     src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
@@ -40,9 +40,6 @@
 />
 <p>El logo anterior es un ejemplo de cómo se inserta una imagen...</p>
 ---
-
----
-
 ## 📸 Capturas de pantalla del proyecto final
 
 A continuación se muestran las capturas de pantalla del proyecto final funcionando en el navegador, correspondientes a **ambas versiones**:
